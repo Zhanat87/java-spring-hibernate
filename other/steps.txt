@@ -1,0 +1,7 @@
+создать проект spring mvc:
+file -> new -> project -> spring ->
+    spring mvc (остальные галочки убрать, например java ee (web application)) ->
+    next -> выбрать галочку создать из шаблона
+
+расшарить этот проект на github:
+vcs -> import into version control -> share project on github
