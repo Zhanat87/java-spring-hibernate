@@ -5,3 +5,110 @@ file -> new -> project -> spring ->
 
 расшарить этот проект на github:
 vcs -> import into version control -> share project on github
+
+добавить макет material admin:
+cd ~/sites/Wunderkind/
+mkdir /root/IdeaProjects/java-spring-hibernate/src/main/webapp/resources
+sudo cp material_admin_v-1.5-2\ 2.zip /root/IdeaProjects/java-spring-hibernate/src/main/webapp/resources/
+cd /root/IdeaProjects/java-spring-hibernate/src/main/webapp/resources
+unzip material_admin_v-1.5-2\ 2.zip
+sudo rm -r __MACOSX/
+sudo rm material_admin_v-1.5-2\ 2.zip
+потом директорию angular перетащить в ресурсы, а остальное можно удалить
+sudo rm -r material_admin_v-1.5-2\ 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
