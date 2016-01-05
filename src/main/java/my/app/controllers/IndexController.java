@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import java.sql.SQLException;
 
 @Controller
 @RequestMapping("/")
@@ -21,10 +22,9 @@ public class IndexController {
 		return "login";
 	}
 
-	@RequestMapping(value = "/404", method = RequestMethod.GET)
-	public String notFound(ModelMap model) {
-		model.addAttribute("message", "Not found!");
-		return "404";
+	@RequestMapping(value = "/exception", method = RequestMethod.GET)
+	public String exception(ModelMap model) throws Exception {
+		throw new Exception("throw an exception");
 	}
 
 }
