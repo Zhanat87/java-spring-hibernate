@@ -1,4 +1,4 @@
-package my.app.mvc;
+package my.app.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/")
-public class HelloController {
+public class IndexController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String index(ModelMap model) {
